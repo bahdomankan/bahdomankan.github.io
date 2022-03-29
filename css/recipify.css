@@ -154,18 +154,6 @@ header img {
 	animation-iteration-count: infinite;
 }
 
-.section1 .oneblur {
-	animation-duration: 8s;
-	animation-name: specialimg1;
-	animation-iteration-count: infinite;
-}
-
-.section1 .twoblur {
-	animation-duration: 8s;
-	animation-delay: 4s;
-	animation-name: specialimg1;
-	animation-iteration-count: infinite;
-}
 
 @keyframes specialimg1 {
   0%   {
