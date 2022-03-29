@@ -151,20 +151,6 @@ header .banner_img {
 
 
 
-@keyframes specialimg1 {
-  0%   {
-  		filter: blur(0px);
-  }
-  50%  {
-  		filter: blur(4px);
-  }
-
-  100% {
-  		filter: blur(0px);
-  }
-}
-
-
 
 .section2 {
 	height: 100%;
