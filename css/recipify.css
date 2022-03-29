@@ -4,6 +4,12 @@
 	color: white;
 }
 
+
+body {
+	background-color: black;
+	font-family: 'Roboto', sans-serif;
+}
+
 @media screen and (max-width: 1100px) {
   header {
   	display: none;
@@ -34,10 +40,6 @@
 
 	}
 
-body {
-	background-color: black;
-	font-family: 'Roboto', sans-serif;
-}
 
 header {
 	height: 100%;
