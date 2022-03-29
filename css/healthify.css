@@ -149,14 +149,14 @@ header .banner_img {
 }
 
 .section1 .oneblur {
-	animation-duration: 4s;
+	animation-duration: 8s;
 	animation-name: specialimg1;
 	animation-iteration-count: infinite;
 }
 
 .section1 .twoblur {
-	animation-duration: 4s;
-	animation-delay: 2s;
+	animation-duration: 8s;
+	animation-delay: 4s;
 	animation-name: specialimg1;
 	animation-iteration-count: infinite;
 }
