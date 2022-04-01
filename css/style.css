@@ -314,7 +314,7 @@ header {
 
 
 
-	.section5 {
+.section5 {
 	height: 100%;
 	margin: 0 50px;
 	display: grid;
@@ -353,6 +353,52 @@ header {
 }
 
 .section5 span {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	}
+
+
+.section6 {
+	height: 100%;
+	margin: 0 50px;
+	display: grid;
+	grid-template-columns: 1fr  2fr 1fr;
+	justify-items: center;
+	align-content: center;
+
+}
+.section6 h1{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	font-size: 2em;
+	color: orange;
+}
+
+.section6 h2{
+	font-size: 15px;
+}
+
+.section6 .darker{
+	transform: rotate3d(3, 3, 1, 30deg);
+	filter: blur(3px);
+}
+
+.section6 img {
+	height: 250px;
+	transition-duration: 1s;
+	border-radius: 15px;
+}
+
+.section6 .darker:hover {
+	transform: rotate3d(0, 0, 0, 0deg);
+	filter: blur(0px);
+
+	transition-duration: 1s;
+}
+
+.section6 span {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
