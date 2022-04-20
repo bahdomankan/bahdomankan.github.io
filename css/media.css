@@ -1,0 +1,33 @@
+@media screen and (max-width: 1100px) {
+  .grid3 {
+    grid-template-columns: 1fr;
+  }
+
+  .grid2 {
+    grid-template-columns: 1fr;
+  }
+
+  .grid3_wrap {
+    grid-template-columns: 1fr;
+  }
+
+.overlap * {
+  width: 60%;
+  height: auto;
+  grid-area: overlay;
+  
+}
+
+  .descriptive_block {
+    height: fit-content;
+  }
+
+  .small_section {
+    height: fit-content;
+  }
+
+  .medium_section {
+    height: fit-content;
+  }
+
+}
