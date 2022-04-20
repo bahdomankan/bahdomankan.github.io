@@ -3,6 +3,13 @@
     grid-template-columns: 1fr;
   }
 
+  .nav {
+    position: static;
+    font-size: 10px;
+    grid-template-columns: 1fr;
+    padding: 0;
+  }
+
   .grid2 {
     grid-template-columns: 1fr;
   }
@@ -20,6 +27,7 @@
 
   .descriptive_block {
     height: fit-content;
+    padding: 5%;
   }
 
   .small_section {
