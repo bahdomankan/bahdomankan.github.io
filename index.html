@@ -1,74 +1,82 @@
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" type="text/css" href="css/media.css">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/media.css">
 
-	<script src="jquery-2.1.4.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="jquery-2.1.4.js"></script>
+	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
 
-	<title>Document</title>
-</head>
-<body>
-	<section class="loader">
-		<h1>You have never seen portfolio like that
-		!</h1>
-		<h2>Loading</h2>
-	</section>
+		<title>Bohdan Manko. Portfolio.</title>
+	</head>
 
-	<nav>
-		<img class="left" src="img/logo.png">
-		<a href="../index.html">PROJECTS</a>
-		<a href="html/about.html">ABOUT ME</a>
-		<a href="html/Resume_UX.pdf">CV DOWNLOAD</a>
-	</nav>
+	<body>
+		<section class="loader">
+			<p>You have never seen portfolio like that
+			!</p>
+			<p>Loading...</p>
+		</section>
 
-	<header class="small_section grid3_header ">
-		<img src="img/hand_left.png" class="main left_grid">
-		<span class="headline"> 
-			<h1>Bohdan Manko</h1>
-			<h2>UX, UI, WEB, PRODUCT DESIGNER</h2>
-		</span>
-		<img src="img/hand_right.png" class="main right_grid">
-	</header>
+		<nav>
+			<a href="index.html" target = "_self"><img class="blur" src="img/logo.png"></a>
+			<span>
+				<a href="index.html">PROJECTS</a>
+				<a href="html/about.html">ABOUT ME</a>
+				<a href="html/Resume_UX.pdf">CV DOWNLOAD</a>
+			</span>
+		</nav>
 
-	<section class="medium_section grid3_wrap">
+		<header class="grid3x3">
+			<img class="left_hand" src="img/hand_left.png">
+			<span> 
+				<h2>BOHDAN MANKO</h2>
+				<h3>UX, UI, WEB, PRODUCT DESIGNER</h3>
+			</span>
+			<img class="right_hand" src="img/hand_right.png">
+		</header>
 
-		<div class="overlap">
-			<img class="special_fx " src="img/statue_disk2.png">
-			<img class="greyscale" src="img/statue_disk1.png">
-			<button class="button" href="#"><a href="https://www.behance.net/gallery/142098995/Bankify" target="_blank">See project</a></button>	
-		</div>
+		<section class="projects grid3x3">
+			<h1 class="overlap">PROJECTS</h1>
+			<div class="overlap">
+				<img class="up_front" src="img/bankify1.png">
+				<img src="img/bankify2.png">
+				<a href="https://www.behance.net/gallery/142098995/Bankify" target="_blank">See project</a>	
+			</div>
 
-		<div class="overlap">
-			<img class="special_fx behind" src="img/statue2_1.png">
-			<img class="greyscale" src="img/statue2_2.png">
-			<button class="button" href="#"><a href="https://www.behance.net/gallery/142098073/Healthify" target="_blank">See project</a></button>	
-		</div>
+			<div class="overlap">
+				<img class="up_front" src="img/healthify1.png">
+				<img src="img/healthify2.png">
+				<a href="https://www.behance.net/gallery/142098073/Healthify" target="_blank">See project</a>	
+			</div>
 
-	</section> 
+			<div class="overlap">
+				<img src="img/vpn1.png">
+				<img class="up_front" src="img/vpn2.png">
+				<a href="https://www.behance.net/gallery/142165029/AWEvpn" target="_blank">See project</a>	
+			</div>
+			
+		</section>
 
-	<footer>
-		<h1>Bohdan Manko,</h1>
-		<h2>UX/UI designer with a good taste and sense of style from birth.</h2>
-		<span>
-			<a href="https://www.instagram.com/bahdomankan/"><img src="img/inst_logo.webp"></a>
-			<a href="https://t.me/bogdanovsk1"><img src="img/telegram-1.svg"></a>
-			<a href="https://www.linkedin.com/in/bohdan-manko-ruslanovych/"><img src="img/LinkedIn_logo.png"></a>
-		</span>
-		
-	</footer>
+		<footer>
+			<h3>Nice to see you here! Contact me, I am available</h3>
+			<h3>Good taste and sense of style from birth.</h3>
+			<span>
+				<a href="https://www.instagram.com/bahdomankan/"><img src="img/inst_logo.webp"></a>
+				<a href="https://t.me/bogdanovsk1"><img src="img/telegram-1.svg"></a>
+				<a href="https://www.linkedin.com/in/bohdan-manko-ruslanovych/"><img src="img/LinkedIn_logo.png"></a>
+			</span>
+		</footer>
 
-	<script type="text/javascript">
-		$(window).on("load",function(){
-	     $(".loader").fadeOut("slow");
-		});
-	</script>
-</body>
+		<script type="text/javascript">
+			$(window).on("load",function(){
+		     $(".loader").fadeOut("slow");
+			});
+		</script>
+	</body>
 </html>
